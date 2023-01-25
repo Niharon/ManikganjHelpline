@@ -1,0 +1,32 @@
+/* navbar style */
+
+nav {
+  height: 12vh;
+  background: #1877f2;
+  display: flex;
+  box-shadow: 0 5px 15px rgb(44, 44, 44);
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.brandLogo {
+  width: 60px;
+}
+
+.navLink {
+  color: #fff;
+  margin: 1rem;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  color: #282c34;
+}
+
+nav .active {
+  color: red;
+  background: #ffffff;
+  padding: 0.75rem;
+}
