@@ -103,3 +103,77 @@ article h4 {
     max-width: calc(50% - 20px);
   }
 }
+
+/* =====detailsView page===== */
+.ContctDesign {
+  flex: 0 0 calc(33.33% - 20px);
+  max-width: calc(33.33% - 20px);
+  width: 100%;
+  background: #d5deeb;
+  color: #212121;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-bottom: 25px;
+  transition: 0.3s;
+  border: 2px solid transparent;
+  /* text-align: center; */
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 0 10px 10px -5px #2d112a;
+}
+.CardSize {
+  justify-content: center;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+@media (max-width: 969px) {
+  .ContctDesign {
+    flex: 0 0 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+}
+@media (max-width: 500px) {
+  .ContctDesign {
+    flex: 0 0 calc(100% - 20px);
+    max-width: calc(100% - 20px);
+  }
+}
+@media (max-width: 500px) {
+  .CardSize {
+    justify-content: center !important;
+    /* margin: 0 !important; */
+    width: 90%;
+    align-items: center;
+    /* text-align: center; */
+  }
+}
+
+.ParenDiv {
+  display: inline-flex;
+  width: 100%;
+}
+.callIncon {
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+.callIncon i {
+  font-size: 15px;
+  background: #34566f;
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.nmMbl {
+  width: 100%;
+}
+.nmMbl p {
+  margin: 5px;
+  font-family: Hind Siliguri;
+}
