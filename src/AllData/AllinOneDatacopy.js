@@ -1,6 +1,12 @@
 var CardDetails = {
   data: [
     {
+      id: 7,
+      Name: "hdfuyvgu ব্যাংক কমিউনিটি হাসপাতাল, মানিকগঞ্জ",
+      MobileNumber: "01822631538",
+      token: "কলেজ",
+    },
+    {
       id: 1,
       Name: "কর্নেল মালেক মেডিকেল কলেজ,মানিকগঞ্জ",
       MobileNumber: "018226351775",

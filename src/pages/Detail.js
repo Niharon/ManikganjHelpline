@@ -4,7 +4,7 @@ import { CardDatas } from "../data";
 import { CardDetails } from "../AllData/AllinOneData";
 const Detail = () => {
   const { title } = useParams();
-  // console.log(CardDatas);
+  console.log(CardDatas);
   return (
     <div>
       <h1> {title} Page </h1>
@@ -22,7 +22,7 @@ const Detail = () => {
 
       {CardDetails.map((CardDetails, index) => (
         <article key={index}>
-          <p> {CardDetails.HospitalName} </p>
+          <p> {CardDetails.Name} </p>
           <p> {CardDetails.MobileNumber} </p>
         </article>
       ))}
