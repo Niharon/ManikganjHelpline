@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ManikganjHelpline/static/css/main.59d1a92d.css",
+    "main.js": "/ManikganjHelpline/static/js/main.2bf1fc15.js",
+    "static/js/787.2190c313.chunk.js": "/ManikganjHelpline/static/js/787.2190c313.chunk.js",
+    "static/media/mjhelp1.png": "/ManikganjHelpline/static/media/mjhelp1.d63da01449d1f1b1d601.png",
+    "index.html": "/ManikganjHelpline/index.html",
+    "main.59d1a92d.css.map": "/ManikganjHelpline/static/css/main.59d1a92d.css.map",
+    "main.2bf1fc15.js.map": "/ManikganjHelpline/static/js/main.2bf1fc15.js.map",
+    "787.2190c313.chunk.js.map": "/ManikganjHelpline/static/js/787.2190c313.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59d1a92d.css",
+    "static/js/main.2bf1fc15.js"
+  ]
+}
