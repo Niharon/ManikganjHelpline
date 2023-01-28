@@ -31,7 +31,7 @@ const DetailView = () => {
                       <p> {CardDetails.MobileNumber} </p>
                     </div>
                     <div className="callIncon">
-                      <a href="tel:+880 1822 663 583">
+                      <a href={"tel:" + CardDetails.MobileNumber}>
                         {/* <i className={CardDetails.FontawsomeIcon}> </i> */}
                         <i class="fa-solid fa-phone-flip"></i>
                       </a>
