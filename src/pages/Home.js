@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container } from "react-bootstrap";
+import { Container, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { CardDatas } from "../data";
 const Home = () => {

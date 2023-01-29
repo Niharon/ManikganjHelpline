@@ -1,4 +1,4 @@
-/* navbar style */
+/* navbar style
 
 nav {
   height: 12vh;
@@ -29,4 +29,158 @@ nav .active {
   color: red;
   background: #ffffff;
   padding: 0.75rem;
+} */
+
+/* =======new navbar style start======= */
+
+/*
+#navbar_section {
+  background: #97b1d3;
+  box-shadow: 0 5px 15px rgb(44, 44, 44);
+}
+
+.max_width {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brandLogo {
+}
+.brandLogo img {
+  width: 60px;
+}
+.NavLinks {
+}
+.navLink {
+  margin: 0 20px;
+  color: #fff;
+  text-decoration: none;
+} */
+
+/* new start notun kore  */
+
+nav {
+  height: 80px;
+  background: #1877f2;
+}
+
+/* nav {
+  background: #1877f2;
+  align-items: center;
+  display: flex;
+  box-shadow: 0 5px 15px #2c2c2c;
+  justify-content: right;
+  width: 100%;
+  padding: 0 20px;
+} */
+
+.brandLogo img {
+  width: 60px;
+  position: absolute;
+  top: 15px;
+  left: 2%;
+}
+
+.NavLinks {
+  float: right;
+  margin-right: 25px;
+}
+
+.navLink {
+  display: inline-block;
+  /* line-height: 80px; */
+  margin: 18px 15px;
+  text-decoration: none;
+  position: relative;
+  color: #fff;
+  padding: 5px 0;
+  font-size: 18px;
+}
+
+nav .active {
+  color: red;
+  background: #fff;
+  padding: 8px;
+}
+
+/* .navLink::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.2s linear;
+}
+
+.navLink:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+} */
+
+label {
+  right: 0;
+  position: absolute;
+}
+
+label #btn,
+label #cancel {
+  color: #fff;
+  font-size: 30px;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+
+@media (max-width: 1118px) {
+  .brandLogo img {
+    left: 8%;
+  }
+}
+
+@media (max-width: 944px) {
+  .brandLogo img {
+    left: 6%;
+    /* top: 20px */
+  }
+}
+nav .navLink {
+  font-size: 17px;
+}
+@media (max-width: 860px) {
+  label #btn {
+    display: block;
+  }
+  .NavLinks {
+    position: fixed;
+    width: 70%;
+    top: 80px;
+    height: 100vh;
+    background: #322f2f;
+    left: -100%;
+    text-align: center;
+    transition: all 0.4s;
+  }
+  .navLink {
+    display: block;
+  }
+
+  #check:checked ~ .NavLinks {
+    left: 0;
+  }
+  #check:checked ~ label #btn {
+    display: none;
+  }
+  #check:checked ~ label #cancel {
+    display: block;
+  }
 }
