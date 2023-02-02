@@ -216,7 +216,7 @@ export const CardDetails = [
   },
   {
     id: 36,
-    Name: ".................. ক্লিনিক",
+    Name: "বলাকা জেনারেল হাসপাতাল",
     MobileNumber: "01578554454",
     token: "ক্লিনিক",
   },
@@ -234,7 +234,7 @@ export const CardDetails = [
   },
   {
     id: 39,
-    Name: "............... ক্লিনিক",
+    Name: "ইউনাইটেড জেনারেল হাসপাতাল",
     MobileNumber: "01578554454",
     token: "ক্লিনিক",
   },

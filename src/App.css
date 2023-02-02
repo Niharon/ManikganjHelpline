@@ -177,3 +177,22 @@ article h4 {
   margin: 5px;
   font-family: Hind Siliguri;
 }
+
+/* manikganj.js style */
+.fontStyle {
+  text-align: center;
+  padding: 20px;
+}
+.contentDiv {
+  padding: 10px 20px;
+}
+.contentDiv h2 {
+  color: #1877f2;
+}
+.contentDiv p {
+  text-align: justify;
+}
+
+.contentDiv li {
+  list-style-type: none;
+}
