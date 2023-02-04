@@ -55,6 +55,11 @@ export const CardDatas = [
     title: "আইটি সেন্টার",
   },
   {
+    id: 21,
+    FontawsomeIcon: "fa-solid fa-user",
+    title: "উল্লেখযোগ্য ব্যক্তিত্ব",
+  },
+  {
     id: 12,
     FontawsomeIcon: "fa-solid fa-place-of-worship",
     title: "পর্যটন কেন্দ্র",
@@ -98,12 +103,5 @@ export const CardDatas = [
     id: 20,
     FontawsomeIcon: "fa-solid fa-cow",
     title: "প্রানীসম্পদ দপ্তর",
-    CardDetails: [
-      {
-        id: 1,
-        hsptlname: "manikganj pashu hospital",
-        MblNmbr: "0182263583",
-      },
-    ],
   },
 ];

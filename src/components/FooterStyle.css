@@ -1,0 +1,15 @@
+#footerId {
+  background: #1867c6;
+  margin: 0;
+}
+#footerId p {
+  padding: 15px;
+  margin: 0;
+  color: aliceblue;
+  text-align: center;
+}
+#footerId p a {
+  color: yellow;
+  font-weight: bold;
+  text-decoration: none;
+}

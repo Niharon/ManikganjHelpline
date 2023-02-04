@@ -11,6 +11,7 @@ import Others from "../pages/Others";
 import Error from "../pages/Error";
 import Navbar from "./Navbar";
 import DetailView from "../pages/DetailView";
+import Footer from "./Footer";
 const MainPage = () => {
   return (
     <BrowserRouter>
@@ -26,6 +27,7 @@ const MainPage = () => {
         <Route path="/others" element={<Others />}></Route>
         <Route path="*" element={<Error />}></Route>
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
