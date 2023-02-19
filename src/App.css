@@ -196,3 +196,87 @@ article h4 {
 .contentDiv li {
   list-style-type: none;
 }
+
+/* ===============media page=============== */
+
+/* model */
+.model {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  transition: opacity 0.4s ease, visibility 0.4s ease, transform 0.5s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0);
+  overflow: hidden;
+  z-index: 999;
+}
+
+.model.open {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+
+.model img {
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  display: block;
+  line-height: 0;
+  box-sizing: border-box;
+  padding: 20px 0 20px;
+  margin: 0 auto;
+}
+.model.open svg {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 5px;
+  background-color: #140f0fe0;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* .linkBtn {
+  flex: 0 0 calc(33.33% - 20px);
+  max-width: calc(33.33% - 20px);
+  width: 100%;
+  background: #347ddb;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 10px;
+  margin-bottom: 25px;
+  transition: 0.3s;
+  border: 2px solid transparent;
+  text-align: center;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  box-shadow: 0 10px 10px -5px #2d112a;
+}
+.linkBtn h4 {
+  color: #eaeded;
+}
+.linkBtn i {
+  color: #fff;
+}
+.MediaCardSection {
+  min-height: 61vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.MediaContainer {
+  max-width: 950px;
+  width: 100%;
+  margin: auto;
+} */

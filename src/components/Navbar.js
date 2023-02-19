@@ -8,7 +8,7 @@ const Navbar = () => {
       <section id="navbar_section">
         <nav>
           <input type="checkbox" id="check" />
-          <label for="check">
+          <label htmlFor="check">
             <i className="fa fa-bars" id="btn"></i>
             <i className="fa fa-times" id="cancel"></i>
           </label>
