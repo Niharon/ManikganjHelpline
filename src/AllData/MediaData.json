@@ -6,7 +6,7 @@
   },
   {
     "id": 2,
-    "picture": "../images/image2.jpg",
+    "picture": "/src/images/image2.jpg",
     "descp": "this is descp 2"
   }
 ]
